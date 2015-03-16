@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html><head>
     <meta charset="utf-8">
 
     <title>Mobile UI Test</title>
@@ -25,17 +23,18 @@
         </style>
 </head>
 
-<body>
+<body class="">
     <header>
     </header>
-    <div id="ptr">
+    <div class="wrapper">
+            <div id="ptr">
         <span class="genericon genericon-next"></span>
         <p>Hold and shutdown all gadgets</p>
     </div>
-    <div id="content">
+    <div id="wrap">
+    <div style="-moz-user-select: none;" id="content">
         <div id="top">
         </div>
-        <div id="wrap">
             <div class="square">
                 <div class="content">
                     <div class="table">
@@ -115,6 +114,7 @@
             </div>
         </div>
     </div>
+</div>
         <script>
         window.onload = function() {
             WebPullToRefresh.init({
@@ -138,6 +138,6 @@
     <script src="lib/wptr.1.0.js"></script>
     <footer></footer>
 
-</body>
 
-</html>
+
+</body></html>

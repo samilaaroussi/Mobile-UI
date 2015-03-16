@@ -9,6 +9,12 @@ header{
     z-index: 20;
 }
 
+.wrapper{
+
+    position: relative;
+    height: 1280px;
+}
+
 
 .square {
     float:left;
@@ -81,8 +87,12 @@ body {
 
 #wrap{
 
-    margin: 1.66%;
+    position: absolute;
+    width: 100%;
+    margin-top: 142px;
+    z-index: 10;
 }
+
 p{
     font-size: 13px;
     color: #eee;
@@ -95,16 +105,13 @@ p{
 }
 
 #top {
-    clear:both;
-    margin: 1.66%;
-    width:89.68%;
+    clear: both;
+    margin: 1.66% 0;
+    width: 93%;
     padding: 3.5%;
-    background: -webkit-linear-gradient(90deg, green, #56f700); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, green, #56f700); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, green, #56f700); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(90deg, green, #56f700); /* Standard syntax */
-    color: #fff;
-    height: 80px;
+    background: linear-gradient(90deg, #008000, #56F700) repeat scroll 0% 0% transparent;
+    color: #FFF;
+    height: 140px;
     border-radius: 2px;
 }
 #top p{
